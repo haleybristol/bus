@@ -1,0 +1,94 @@
+body, html {
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+    font-family: sans-serif;
+}
+.blue-bg {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    background: #4057A0;
+    padding: 8px;
+    align-items: center;
+}
+.gray-bg {
+background: #272427;
+width: 100%;
+color: white;
+padding-top: 15px;
+text-align: center;
+padding-bottom: 55px;
+}
+.nav-ticket {
+    font-size: 19px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+h1 {
+    margin: 0;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-size: 28px;
+}
+h2 {
+    font-size: 100px;
+    margin-top: 3px;
+    padding-left: 10px;
+    margin-bottom: 0;
+}
+p {
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0 0 10px 10px;
+}
+#bus {
+    width: 100%;
+}
+.bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#qr {
+    width: 60px;
+    border: 2px solid black;
+    border-radius: 5px;
+    float: right;
+    margin-right: 10px;
+}
+.cx {
+    font-size: 34px;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 40px;
+    margin-bottom: 0;
+}
+
+@keyframes flickerAnimation {
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-o-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-moz-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  @-webkit-keyframes flickerAnimation{
+    0%   { opacity:1; }
+    50%  { opacity:0; }
+    100% { opacity:1; }
+  }
+  .animate-flicker {
+     -webkit-animation: flickerAnimation 2s infinite;
+     -moz-animation: flickerAnimation 2s infinite;
+     -o-animation: flickerAnimation 2s infinite;
+      animation: flickerAnimation 2s infinite;
+  }
